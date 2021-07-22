@@ -1,0 +1,144 @@
+*{
+    scroll-behavior: smooth;
+    font-family: 'Poppins', 'Sans Serif';
+}
+.read-more{
+    border-radius: 25px;
+    background-color: #d7a68a;
+    color: #323230;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: -1px -1px 25px rgb(140 140 140);
+}
+.read-more:hover{
+    background-color: #323230;
+    color: #d7a68a;
+    box-shadow: -1px -1px 25px rgb(140 140 140);
+}
+.nav-items{
+    font-weight: bold;
+    color: #323230;
+    font-size: 22px; 
+    cursor: pointer;
+    transition: 0.3s;
+}
+.nav-items:hover{
+    color: #d7a68a;
+}
+.home{
+    color: #d7a68a;
+}
+.home:hover{
+    color: #323230;
+}
+.buy-now{
+    background-color: #323230;
+    font-weight: bold;
+    color: white;
+    transition: 0.4s;
+    box-shadow: -1px -1px 25px rgb(140 140 140);
+}
+.buy-now:hover{
+    background-color: #d7a68a;
+    color: #323230;
+    box-shadow: -1px -1px 25px rgb(140 140 140);
+}
+.bg-white:hover{
+    /* opacity: 0.7; */
+    transition: 0.4s;
+    cursor: pointer;
+}
+/* .boxez{
+    border-radius: 10%;
+} */
+.features{
+    background-color: #343432;
+}
+.features div div div div, .features div div div div img{
+    border: 0px solid white;
+    border-radius: 4%;
+    /* box-shadow: -1px -1px 12px grey; */
+    box-shadow: #323230 0px 30px 60px -12px, #d7a68a 0px 18px 36px -18px;
+}
+.feature-txt{
+    color: white;
+    font-size: 40px;
+}
+.boat-txt{
+    color: #d7a68a;
+    font-size: 24px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    font-size: 35px;
+}
+#notification{
+    width: 100%;
+    font-weight: bold;
+    color: #343432;
+    position: fixed;
+    z-index: 100;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* display: none; */
+}
+#alert{
+    width: 100%;
+    padding: 10px;
+    background-color: #d7a68a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #343432;
+}
+#name-label{
+    border-color: red;
+    color: red;
+}
+#email-label{
+    border-color: red;
+    color: red;
+}
+#message-label{
+    border-color: red;
+    color: red;
+}
+@media (max-width: 760px){
+    .imgs{
+        display: none;
+    }
+}
+#up{
+    height: 50px;
+    width: 50px;
+    position: sticky;
+    /* margin: 25px; */
+    left: 48.5%;
+    margin-top: 20px;
+}
+.up{
+    text-decoration: none;
+}
+.apni:hover{
+    color: #d7a68a;
+    
+    transition: 0.5s;
+}
+.buy-card{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#buy-now2{
+    display: inline-block;
+    margin-left: 45%;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.logo-a{
+    cursor: pointer;
+}
